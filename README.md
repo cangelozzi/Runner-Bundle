@@ -20,5 +20,10 @@ The **Feedback** place is a useful tool where the runners can share their opinio
 
 The **Chat** tool puts in immediate contact any website user, they can share info, update on weather condition, share their achievements and much more.
 
+<img width="919" alt="chat_page" src="https://cloud.githubusercontent.com/assets/22348166/22651171/637ca73a-ec82-11e6-90ea-816a17a41ed9.png">
+
+
+
+
 ## The Building of the site
 As highlighted in the Introduction, Frontend and Backend tools have been used for the website.  The server file gets information from local API for the Events and the Feedback.  * [node.js] - (evented I/O for the backend) is the main engineThe Static files organized around HTML/CSS and Javascript are handled with modules like * [Express] - (fast node.js network app framework) and EJS (for the view ports).  While building the site, the Nodemon.js module was used to avoid manually restarting the server; for testing reasons Mocha/Chai libraries have been used.  Bottom line, the styling process was done using a simple and quick Bootstrap template.
