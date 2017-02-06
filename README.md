@@ -15,6 +15,9 @@ The **Events Page** shows the "Current Events" that are trendy and requested at 
 <img width="869" alt="events_page" src="https://cloud.githubusercontent.com/assets/22348166/22651127/3b3c14d6-ec82-11e6-9699-796a4449cee5.png">
 
 The **Feedback** place is a useful tool where the runners can share their opinion and suggestions related to any past/present/future events; the Feedback page is one-stop review for who is interested in joining the group or who is willing to give advices.
+
+<img width="919" alt="feedback_page" src="https://cloud.githubusercontent.com/assets/22348166/22651168/5f353c8c-ec82-11e6-8821-9ee4dd4c0490.png">
+
 The **Chat** tool puts in immediate contact any website user, they can share info, update on weather condition, share their achievements and much more.
 
 ## The Building of the site
