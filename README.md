@@ -11,6 +11,9 @@ The **Home Page** is structured with a brief explanation/introduction of the goa
 <img width="919" alt="homepage" src="https://cloud.githubusercontent.com/assets/22348166/22650924/6cb19e42-ec81-11e6-9d2b-e46aa064da6e.png">
 
 The **Events Page** shows the "Current Events" that are trendy and requested at the moment; basically these are short suggestions given to the runners; the Events page can be updated accordingly depending on the various objectives and goals.
+
+<img width="869" alt="events_page" src="https://cloud.githubusercontent.com/assets/22348166/22651127/3b3c14d6-ec82-11e6-9699-796a4449cee5.png">
+
 The **Feedback** place is a useful tool where the runners can share their opinion and suggestions related to any past/present/future events; the Feedback page is one-stop review for who is interested in joining the group or who is willing to give advices.
 The **Chat** tool puts in immediate contact any website user, they can share info, update on weather condition, share their achievements and much more.
 
