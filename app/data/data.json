@@ -1,0 +1,18 @@
+{
+  "events": [{
+    "title" : "Weekend Long Run",
+    "shortname" : "longrun",
+    "summary" : "The weekend long run is a rite of passage for most runners. Everyone from your weekend warrior to the world champions include this staple workout as part of their weekly training schedule.Long runs are no different than any other workout. In order to continually adapt, the stimulus has to be slightly altered. In a set of repeats on the track, we might decrease the rest, increase the pace, or increase the length of the repetitions. For a long run, we can obviously increase the length and the pace, but those options are limited to an extent.",
+    "artwork": ["longrun1.jpeg", "longrun2.jpeg", "longrun3.jpeg"]
+  },{
+    "title" : "Intervals Run",
+    "shortname" : "interval",
+    "summary": "Interval runs, are short, intense efforts followed by equal or slightly longer recovery time. After a warmup, run two minutes at a hard effort, followed by 2 to 3 minutes of easy jogging or walking to catch your breath. Unlike tempo workouts, you’re running above your red line and at an effort where you are reaching hard for air and counting the seconds until you can stop—a controlled fast effort followed by a truly easy jog. The secret is in the recovery as patience and discipline while you’re running easy allows you to run the next interval strong and finish the entire workout fatigued but not completely spent. Just like rest, your body adapts and gets stronger in the recovery mode. Benefits of Interval Training:  Improved running form and economy, endurance, mind-body coordination, motivation, and fat-burning",
+    "artwork" : ["interval1.jpeg" , "interval2.jpeg" , "interval3.jpeg"]
+  },{
+    "title" : "Hill Run",
+    "shortname" : "hills",
+    "summary": "Hills training are important because they create variety and intensity, which improves your endurance, anaerobic capacity, speed, power, running economy, and overall strength. For obvious reasons, hills increase the difficulty or the intensity of a run. Climbing a hill naturally increases heart rate, which improves both your aerobic (endurance) and your anaerobic capacity. Hills also strengthen your muscular system, improving your running form. Running uphill forces you to lift up your knees higher than usual, which improves stride length and speed. This also aids muscle development to increase power.  Hill training forces your nervous system to change your firing pattern rate as your running gait changes for ascending and descending hills. This change in firing pattern helps recruit your fast-twitch muscle fibers.",
+    "artwork" : ["hills1.jpeg","hills2.jpeg","hills3.jpeg"]
+  }]
+}

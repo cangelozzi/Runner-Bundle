@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Runners Bundle</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  <link rel='stylesheet' href='/css/style.css' />
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+  <header>
+    <div class="jumbotron hidden-xs">
+    </div>
+    <!-- jumbotron -->
+
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a href="/" class="navbar-brand">Runners Bundle</a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="/">Home</a></li>
+            <li><a href="/events" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Events <span class="caret"><span></a>
+              <ul class="dropdown-menu">
+                <li><a href="/events">Current Events</a></li>
+                <!--<li role="separator" class="divider"></li>-->
+              </ul>
+            </li>
+            <!-- create link for Feedback -->
+            <li><a href="/feedback">Feedback</a></li>
+            <li><a href="/chat">Chat</a></li>
+          </ul>
+          <!-- nav -->
+        </div>
+        <!-- navbar-collapse -->
+      </div>
+      <!-- container -->
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8">
+        <div class="maincontent">
+
+          <article class="article">
+            <h1 class="article-title">Welcome Runners!</h1>
+            <p>The RUNNERS BUNDLE is a group of friends and running-fanatics who has been coaching and helping runners accomplish their running goals. Whether you are a new runner or a seasoned runner...we have a training program for ALL LEVEL RUNNERS.</p>
+            <p>We have several scheduled workouts per week led by experienced and coaches. We are all passionate about this sport and our goal is to see that everyone who joins has fun and learns to love running. Our goal is to keep you motivated so that you accomplish your goals. We provide all those in the group with a complete individual Training Program. In addition we provide educational clinics, cross training options, speed training, hydration, technique, nutrition, proper running gear, running shoes, injury prevention and MORE!</p>
+            <p>Let's meet, let's challenge ourself, let's run, let's have fun...and remember, it does not matter how fast, or how long...the important is to RUN!</p>
+          </article>
+          <!-- article -->
+
+          <article class="article">
+            <h1 class="article-title">Activities</h1>
+            <ul>
+              <li>Running, Outdoor Fitness, Group Fitness Training</li>
+              <li>Food advice, Healthy Living, Wellness</li>
+              <li>Socializing, Having Fun!</li>
+            </ul>
+          </article>
+          <!-- article -->
+
+        </div>
+      </div>
+      <!-- primary -->
+      <aside class="col-sm-4">
+        <article class="sidebar">
+          <h1 class="sidebar-title">Who should join?</h1>
+          <ul class="sidebar-body">
+            <li>Anybody interested in running and any activity related.</li>
+            <li>Runners, sport fanatics, cardio-ninja and many more...</li>
+            <li>Those interested in making a connection with others and to share km and sweat on the road.</li>
+          </ul>
+        </article>
+        <!-- article -->
+      </aside>
+      <!-- secondary -->
+    </div>
+  </div>
+  <!-- container -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+  <script src="/js/chat.js"></script>
+</body>
+
+</html>
