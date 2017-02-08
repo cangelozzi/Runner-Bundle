@@ -14,7 +14,7 @@ app.set('view engine', 'ejs');
 // to have routes(endpoints) access to the views
 app.set('views', 'app/views');
 
-//QUESTION
+// go to mock data
 app.locals.allEvents = dataFile.events;
 
 // access STATIC (public) folder with all docs and file

@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Runners Bundle - Feedback</title>
+  <title>Runners Bundle - Events</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
   <link rel='stylesheet' href='/css/style.css' />
@@ -35,7 +35,7 @@
             <li><a href="/">Home</a></li>
             <li><a href="/events" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Events <span class="caret"><span></a>
               <ul class="dropdown-menu">
-                <li><a href="/events">Current Events</a></li>
+                <li><a href="/events">All Events</a></li>
                 <li role="separator" class="divider"></li>
                 <% allEvents.forEach(function(item) { %>
                   <li>
@@ -60,43 +60,32 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-sm-4">
-        <h1 class="feedback-form-title">Send us feedback</h1>
-        <form class="feedback-form">
-          <div class="form-group">
-            <label for="feedback-form-name">Name</label>
-            <input type="text" class="form-control" id="feedback-form-name" placeholder="Enter your name" required>
+      <div class="col-sm-8">
+        <article class="eventslist">
+          <div class="container">
+            <div class="row">
+              <% events.forEach(function(item) { %>
+                <div class="col-sm-12">
+                  <h3 class="eventslist-title"><%= item.title %></h3>
+                  <p class="eventslist-name">
+                    <img class="eventslist-img img-circle pull-left" src="/images/<%= item.shortname %>1.jpeg" alt="Photo of event">
+                    <%= item.description %>
+                  </p>
+                </div>
+                <%  }); %>
+            </div>
+            <!-- row -->
           </div>
-
-          <div class="form-group">
-            <label for="feedback-form-event">Topic</label>
-            <input type="text" class="form-control" id="feedback-form-event" placeholder="Topic of your feedback" required>
-          </div>
-
-          <div class="form-group">
-            <label for="feedback-form-message">Message</label>
-            <textarea type="text" placeholder="Enter your message, then hit Submit" class="form-control" id="feedback-form-message" rows="6" required></textarea>
-          </div>
-          <button type="submit" class="btn btn-default pull-right">Submit</button>
-        </form>
+          <!-- container -->
+        </article>
       </div>
       <!-- primary -->
-      <aside class="col-sm-8">
-        <div class="maincontent feedback">
-          <h2 class="article-title">Recent Feedback</h2>
-          <div class="feedback-messages"></div>
-        </div>
-      </aside>
-      <!-- secondary -->
     </div>
   </div>
   <!-- container -->
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
-
-  <script src="/js/feedback.js"></script>
   <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
   <script src="/js/chat.js"></script>
 </body>

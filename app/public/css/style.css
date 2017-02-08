@@ -23,6 +23,19 @@ li {
   font-weight: 100;
 }
 
+.eventslist img {
+  margin-right: 60px;
+  border-radius: 20%;
+  margin-bottom: 20px;
+}
+
+
+p.eventslist-name {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: lightseagreen;
+}
+
 
 a {
   color: #DD4F53;

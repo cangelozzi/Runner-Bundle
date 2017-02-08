@@ -27,3 +27,7 @@ The **Chat** tool puts in immediate contact any website user, they can share inf
 
 ## The Building of the site
 As highlighted in the Introduction, Frontend and Backend tools have been used for the website.  The server file gets information from local API for the Events and the Feedback.  * [node.js] - (evented I/O for the backend) is the main engineThe Static files organized around HTML/CSS and Javascript are handled with modules like * [Express] - (fast node.js network app framework) and EJS (for the view ports).  While building the site, the Nodemon.js module was used to avoid manually restarting the server; for testing reasons Mocha/Chai libraries have been used.  Bottom line, the styling process was done using a simple and quick Bootstrap template.
+
+
+###UNDER CONSTRUCTION for future Improvements
+- Authentication via Registration and Login for better and safer integration with Feedback and Chat. 
